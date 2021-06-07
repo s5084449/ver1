@@ -23,5 +23,5 @@ The "F" and "X" in my grammar means variables; and F is the point to start. "[]"
 
 "treemodel.h" pre-set the length and raidus attributes of turnks model, also I created a function to reord the end position after each generation.
 
-"Lsysterm.h"and "Lsysterm.h"
+"Lsystem.h"and "Lsystem.h" inluded three head files above, this file defined a vector to detective directions, which is theotially similar as turtle graphics. It also contained function that construct the L-system by defining every symbols separatly.
 
