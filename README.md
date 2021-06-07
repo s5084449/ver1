@@ -15,13 +15,13 @@ Those above are the fundamental logics about L-system is 2D. In order to realise
 ![Image text](https://github.com/s5084449/ver1/blob/main/readmeImage/2.png)
 
 ### Program design
-"grammar.h"and "grammar.cpp" included grammar of L-system. The Iteration function 
+"grammar.h"and "grammar.cpp" included grammar of L-system. The Iteration function used loop algorithm to replace new generatied avribles.
 
 The "F" and "X" in my grammar means variables; and F is the point to start. "[]" mean the start and end of each action; "+""-" mean rotation in X axis,"*""/"mean rotation in Y axis, and"&""%" mean rotation in Z axis.
 
-"transformation.h"and "transformation.cpp"
+"transformation.h"and "transformation.cpp" input matrixs for caculating 3d coordinates.
 
-"treemodel.h"
+"treemodel.h" pre-set the length and raidus attributes of turnks model, also I created a function to reord the end position after each generation for   
 
 "Lsysterm.h"and "Lsysterm.h"
 
